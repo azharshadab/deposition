@@ -1,0 +1,45 @@
+{
+  "TranscriptAnalysis": {
+    "FeatureFlags": {
+      "RetryLimit": 6,
+      "RetryRateSeconds": 15,
+      "UploadLimit": 5,
+      "SessionTimeoutMinutes": 30,
+      "AlertBeforeLogoutMinutes": 2,
+      "SideBar": true
+    },
+    "AWSCognitoConfig": {
+      "UserPoolId": "us-east-1_KQatR1Pzd",
+      "ClientId": "2ra7dnqop4n4a4oq76gv899psm"
+    },
+    "AWSApiGateway": {
+      "GetAnalysisFilterUrl": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-analysis-filter",
+      "InitiateSearch": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/search-results/deep-search/initiate-search",
+      "GetResults": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/search-results/deep-search/get-results",
+      "GetAnomaliesFilter": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-anomalies-filter",
+      "GetAnomaliesGroupFilter": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-anomalies-group-filter",
+      "GetAnomalies": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-anomalies",
+      "UpdateContradiction": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/update-contradiction?status=",
+      "GetClusteringJobsList": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-clustering-jobs-list",
+      "GetStatsFilterDataDev": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-stats-filter-data-dev",
+      "GetStatsDev": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-stats-dev",
+      "GetSummary": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-summary",
+      "GetAnalysisBubbles": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-analysis-bubbles",
+      "GetTopicwiseQuestions": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-analysis-bubbles/get-topicwise-questions",
+      "QueueClusteringJobs": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/queue-clustering-job",
+      "GetUserTable": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-user-table",
+      "DeleteTranscript": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/delete-transcript",
+      "DeleteTranscriptGroup": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/delete-transcript-group",
+      "DeleteAnomaly": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/delete-contradiction-anomaly",
+      "PresignedUrl": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/presigned-url",
+      "GetAnomaliesPdfData": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-anomalies-pdf-data?t_ids=",
+      "UpdateDeponentDetails": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/update-transcript",
+      "UpdateGroup": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/update-group",
+      "GetSummarizationFilterData": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-summary-filter",
+      "SearchSummary": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/search-summary",
+      "GetTranscriptsInGroup": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-transcripts-in-transcriptgroup",
+      "GetUserGroupsTable": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/get-transcript-groups-by-user",
+      "GetUserId": "https://gbr41dfod8.execute-api.us-east-1.amazonaws.com/dev/userloginupdate"
+    }
+  }
+}
