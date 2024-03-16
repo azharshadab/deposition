@@ -1,2 +1,2 @@
-# deposition_insights
-AI enabled deposition summaries
+# deposition
+AI-enabled deposition summaries
